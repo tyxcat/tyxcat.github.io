@@ -30,7 +30,7 @@ Hello! 👋 I'm Cady, a Software Engineer at Google DeepMind. 🌀 As part of th
 
 Before joining DeepMind, I was a Machine Learning Engineer on the Google XR team. 🕶️ There, my work centered on the research and development of Perception Models and Multimodal LLMs to enhance XR experiences, making user interactions more intuitive and contextually aware.
 
-Prior to my roles at Google, I served as a Software Engineer at Apple  on the CoreOS team. I received my Bachelor's degree in Computer Science from UC Berkeley.
+Prior to my roles at Google, I served as a Software Engineer at Apple  on the CoreOS team. I received my Bachelor's degree in Computer Science from UC Berkeley. 🐻
 
 I am always happy to connect with other researchers and practitioners working on LLMs, XR, or autonomous agents. Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/cadyxu/), [Email](mailto:[tyx@google.com]), or explore my publications on [Google Scholar](https://scholar.google.com/citations?hl=en&user=nx1V8M4AAAAJ) for potential collaborations! 🐑
 
