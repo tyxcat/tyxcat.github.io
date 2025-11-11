@@ -1,3 +1,12 @@
+---
+layout: post
+date: 2025-10-02 8:00:00-0000
+inline: true
+related_posts: false
+---
+
+Serving as a reviewer for CHI 2026! 🤠
+
 <!-- ---
 layout: post
 title: A long announcement with details

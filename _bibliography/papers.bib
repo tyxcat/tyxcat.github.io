@@ -1,92 +1,74 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-
-@book{einstein1956investigations,
+@inproceedings{xu2025samosa,
+  abbr={SAMOSA},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@inproceedings{xu2025enhancing,
-  abbr={samosa},
   author    = {Tianyu Xu and Jihan Li and Penghe Zu and Pranav Sahay and Maruchi Kim and Jack Obeng-Marnu and Farley Miller and Xun Qian and Katrina Passarella and Mahitha Rachumalla and Rajeev Nongpiur and D. Shin.},
   title     = {{Enhancing XR Auditory Realism via Multimodal Scene-Aware Acoustic Rendering}},
-  booktitle = {Proceedings of UIST 2025 (To Appear)},
+  booktitle = {Proceedings of UIST 2025},
   year      = {2025},
   address   = {Busan, Republic of Korea},
   publisher = {Association for Computing Machinery},
-  keywords  = {XR, spatial audio, multimodal, scene-aware rendering},
+  keywords  = {extended reality, spatial audio rendering, rir synthesis, multimodal machine learning, large language models, scene representation, room acoustics},
+  doi={10.1145/3746059.3747730},
+  abstract={In Extended Reality (XR), rendering sound that accurately simulates real-world acoustics is pivotal in creating lifelike and believable virtual experiences. However, existing XR spatial audio rendering methods often struggle with real-time adaptation to diverse physical scenes, causing a sensory mismatch between visual and auditory cues that disrupts user immersion. To address this, we introduce SAMOSA, a novel on-device system that renders spatially accurate sound by dynamically adapting to its physical environment. SAMOSA leverages a synergistic multimodal scene representation by fusing real-time estimations of room geometry, surface materials, and semantic-driven acoustic context. This rich representation then enables efficient acoustic calibration via scene priors, allowing the system to synthesize a highly realistic Room Impulse Response (RIR). We validate our system through technical evaluation using acoustic metrics for RIR synthesis across various room configurations and sound types, alongside an expert evaluation (N=12). Evaluation results demonstrate SAMOSA’s feasibility and efficacy in enhancing XR auditory realism.},
   selected  = {true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@inproceedings{zhu2025EILite,
+  abbr={EI-Lite},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  author = {Junyi Zhu and Tianyu Xu and Jiayu Wang and Emily Guan and JaeYoung Moon and Stiven Morvan and D Shin and Andrea Colaço and Stefanie Mueller and Karan Ahuja and Yiyue Luo and Ishan Chatterjee.},  
+  title     = {{EI-Lite: Electrical Impedance Sensing for Micro-gesture Recognition and Pinch Force Estimation}},
+  booktitle = {Proceedings of UIST 2025},
+  year      = {2025},
+  address   = {Busan, Republic of Korea},
+  publisher = {Association for Computing Machinery},
+  keywords  = {Micro-gesture Recognition, Input, Natural User Interfaces, Interaction Technique, Extended Reality, EIT},
+  doi={10.1145/3746059.3747671},
+  abstract={Micro-gesture recognition and fine-grain pinch press enables intuitive and discreet control of devices, offering significant potential for enhancing human-computer interaction (HCI). In this paper, we present EI-Lite, a lightweight wrist-worn electrical impedance sensing device for micro-gesture recognition and continuous pinch force estimation. We elicit an optimal and simplified device architecture through an ablation study on electrode placement with 13 users, and implement the elicited designs through 3D printing. We capture data on 15 participants on (1) six common micro-gestures (plus idle state) and (2) index finger pinch forces, then develop machine learning models that interpret the impedance signals generated by these micro-gestures and pinch forces. Our system is capable of accurate recognition of micro-gesture events (96.33% accuracy), as well as continuously estimating the pinch force of the index finger in physical units (Newton), with the mean-squared-error (MSE) of 0.3071 (or mean-force-variance of 0.55 Newtons) over 15 participants. Finally, we demonstrate EI-Lite’s applicability via three applications in AR/VR, gaming, and assistive technologies.},
+  selected  = {true}
 }
 
-@book{przibram1967letters,
+@misc{bo2025steerablechatbotspersonalizingllms,
+      abbr={Steerable Chatbots},
+      title={{Steerable Chatbots: Personalizing LLMs with Preference-Based Activation Steering}}, 
+      bibtex_show={true},
+      author = {Jessica Y. Bo and Tianyu Xu and Ishan Chatterjee and Katrina Passarella-Ward and Achin Kulshrestha and D Shin.},
+      year={2025},
+      eprint={2505.04260},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC},
+      keywords={LLM Personalization, Activation Steering, Chatbot Interfaces},
+      arxiv={2505.04260}, 
+      abstract={As large language models (LLMs) improve in their capacity to serve as personal AI assistants, their ability to output uniquely tailored, personalized responses that align with the soft preferences of their users is essential for enhancing user satisfaction and retention. However, untrained lay users have poor prompt specification abilities and often struggle with conveying their latent preferences to AI assistants. To address this, we leverage activation steering to guide LLMs to align with interpretable preference dimensions during inference. In contrast to memory-based personalization methods that require longer user history, steering is extremely lightweight and can be easily controlled by the user via an linear strength factor. We embed steering into three different interactive chatbot interfaces and conduct a within-subjects user study (n=14) to investigate how end users prefer to personalize their conversations. The results demonstrate the effectiveness of preference-based steering for aligning real-world conversations with hidden user preferences, and highlight further insights on how diverse values around control, usability, and transparency lead users to prefer different interfaces.},
+      selected  = {true}
+}
+
+@inproceedings{capone2025calipso,
+    abbr={CaliPSO},
+    bibtex_show={true},
+    title={{CaliPSo: Calibrated Predictive Models with Sharpness as Loss Function}},
+    author={Alexandre Capone and Kamron Zaidi and Tianyu Xu and Brian Yang and Geoff Pleiss and Jeff Schneider.},
+    booktitle={ICML 2025 Workshop on Methods and Opportunities at Small Scale},
+    year={2025},
+    keywords={Conformal Prediction, Uncertainty Quantification, Calibration, Sharpness, Predictive Intervals, Neural Networks},
+    website={https://openreview.net/forum?id=aj7JZBV5t8},
+    abstract={Conformal prediction methods have become increasingly common for accurately capturing uncertainty with machine learning models. However, conformal prediction typically recalibrates an existing model, making it heavily reliant on the quality of the uncalibrated model. Moreover, they either enforce marginal calibration strictly, yielding potentially coarse predictive intervals, or attempt to strike a balance between interval coarseness and calibration. Motivated by these shortcomings, we present CaliPSo a neural network model that is marginally calibrated out-of-the-box and stays so throughout training. This property is achieved by adding a model-dependent constant to the model prediction that shifts it in a way that ensures calibration. During training, we then leverage this to focus exclusively on sharpness - the property of returning tight predictive intervals - rendering the model more useful at test time. We show thorough experimental results, where our method exhibits superior performance compared to several state-of-the-art approaches.},
+    selected  = {true}
+}
+
+@inproceedings{zhu2024liquids,
+  abbr={Liquid EIT},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  title     = {{Liquids Identification and Manipulation via Digitally Fabricated Impedance Sensors}},
+  author    = {Junyi Zhu and Young Joong Lee and Yiyue Luo and Tianyu Xu and Chao Liu and Daniela Rus and Stefanie Mueller and Wojciech Matusik.},
+  booktitle = {2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  year      = {2024},
+  pages     = {18164--18171},
+  doi       = {10.1109/ICRA57147.2024.10610518},
+  keywords  = {electrodes, liquids, robot sensing systems, sensors, frequency measurement, impedance, state estimation},
+  abstract  = {Despite recent exponential advancements in computer vision and reinforcement learning, it remains challenging for robots to interact with liquids. These challenges are particularly pronounced due to the limitations imposed by opaque containers, transparent liquids, fine-grained splashes, and visual obstructions arising from the robot’s own manipulation activities. Yet, there exists a substantial opportunity for robotics to excel in liquid identification and manipulation, given its potential role in chemical handling in laboratories and various manufacturing sectors such as pharmaceuticals or beverages. In this work, we present a novel approach for liquid class identification and state estimation leveraging electrical impedance sensing. We design and mount a digitally embroidered electrode array to a commercial robot gripper. Coupled with a customized impedance sensing board, we collect data on liquid manipulation with a swept frequency sensing mode and a frequency-specific impedance measuring mode. Our developed learning-based model achieves an accuracy of 93.33% in classifying 9 different types of liquids (8 liquids + air), and 97.65% in estimating the liquid state. We investigate the effectiveness of our system with a series of ablation studies. These findings highlight our work as a promising solution for enhancing robotic manipulation in liquid-related tasks.},
+  selected  = {true}
 }

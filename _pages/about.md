@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://arvr.google.com/'>Google AR</a>, Multimodal LLM, AR/VR, Input & Intent Perception.
+subtitle: <a href='https://deepmind.google.com/'>Google DeepMind</a>, Multimodal LLM Agent, Input & Intent Perception.
 
 profile:
   align: left
@@ -26,11 +26,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! 👋 I am a researcher on the <a href='https://research.google/people/cadyxu/'>Google AR</a> team, where my work focuses on the development and application of multimodal Large Language Models (LLMs). My research aims to build more intuitive and contextually aware Extended Reality (XR) experiences, leveraging the power of multimodal understanding to enhance how users interact with and perceive their digital and physical environments.
+Hello! 👋 I'm Cady, a Software Engineer at Google DeepMind. 🌀 As part of the GenAI team, I am currently focused on building LLM agents, exploring how they can be used to solve complex real-world problems. My goal is to develop highly capable and reliable agents that can interact intelligently with dynamic environments.
 
-In addition to my work at Google, I am currently a Master's student in the Machine Learning program (MSML) at Carnegie Mellon University (CMU). Previously, I was a software engineer at Apple on the Core Operating System (CoreOS) team. I received my Bachelor's degree in Computer Science from UC Berkeley.
+Before joining DeepMind, I was a Machine Learning Engineer on the Google XR team. 🕶️ There, my work centered on the research and development of Perception Models and Multimodal LLMs to enhance XR experiences, making user interactions more intuitive and contextually aware.
 
-I am actively seeking student researchers and interns to collaborate with me for the Summer 2026 term. If you have a strong background in machine learning (especially multimodal models), computer vision, or LLMs and are passionate about building the next generation of intuitive AR experiences, please feel free to reach out.
+Prior to my roles at Google, I served as a Software Engineer at Apple  on the CoreOS team. I received my Bachelor's degree in Computer Science from UC Berkeley.
+
+I am always happy to connect with other researchers and practitioners working on LLMs, XR, or autonomous agents. Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/cadyxu/), [Email](mailto:[tyx@google.com]), or explore my publications on [Google Scholar]([https://scholar.google.com/citations?hl=en&user=nx1V8M4AAAAJ]) for potential collaborations or discussions!
+
+<!-- I am actively seeking student researchers and interns to collaborate with me for the Summer 2026 term. If you have a strong background in machine learning (especially multimodal models), computer vision, or LLMs and are passionate about building the next generation of intuitive AR experiences, please feel free to reach out. -->
 <!-- Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
