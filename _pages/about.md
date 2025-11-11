@@ -32,7 +32,7 @@ Before joining DeepMind, I was a Machine Learning Engineer on the Google XR team
 
 Prior to my roles at Google, I served as a Software Engineer at Apple  on the CoreOS team. I received my Bachelor's degree in Computer Science from UC Berkeley.
 
-I am always happy to connect with other researchers and practitioners working on LLMs, XR, or autonomous agents. Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/cadyxu/), [Email](mailto:[tyx@google.com]), or explore my publications on [Google Scholar]([https://scholar.google.com/citations?hl=en&user=nx1V8M4AAAAJ]) for potential collaborations or discussions!
+I am always happy to connect with other researchers and practitioners working on LLMs, XR, or autonomous agents. Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/cadyxu/), [Email](mailto:[tyx@google.com]), or explore my publications on [Google Scholar](https://scholar.google.com/citations?hl=en&user=nx1V8M4AAAAJ) for potential collaborations! 🐑
 
 <!-- I am actively seeking student researchers and interns to collaborate with me for the Summer 2026 term. If you have a strong background in machine learning (especially multimodal models), computer vision, or LLMs and are passionate about building the next generation of intuitive AR experiences, please feel free to reach out. -->
 <!-- Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
