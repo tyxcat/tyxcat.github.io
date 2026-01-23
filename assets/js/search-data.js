@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
         },{id: "news-2-papers-accepted-to-uist-2025",
           title: '2 papers accepted to UIST 2025! 🎉🎉',
           description: "",
