@@ -25,6 +25,9 @@ ninja.data = [{
           section: "News",},{id: "news-joined-google-deepmind",
           title: 'Joined Google DeepMind! 🌀🌀🌀',
           description: "",
+          section: "News",},{id: "news-project-moxart-has-been-conditionally-accepted-to-chi-2026",
+          title: 'Project MoXaRt has been conditionally accepted to CHI 2026.',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
