@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Serving as a reviewer for CHI 2026! 🤠
+Serving as a reviewer for [CHI 2026](https://chi2026.acm.org/)! 🤠
 
 <!-- ---
 layout: post

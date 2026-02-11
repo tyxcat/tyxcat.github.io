@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Project MoXaRt has been conditionally accepted to CHI 2026.
+Project MoXaRt has been conditionally accepted to [CHI 2026](https://chi2026.acm.org/).

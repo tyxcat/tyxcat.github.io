@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Joined Google DeepMind! 🌀🌀🌀
+Joined [Google DeepMind](https://deepmind.google/)! 🌀🌀🌀
 
 <!-- ---
 layout: post

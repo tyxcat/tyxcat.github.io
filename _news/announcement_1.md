@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-2 papers accepted to UIST 2025! 🎉🎉
+2 papers accepted to [UIST 2025](https://uist.acm.org/2025/)! 🎉🎉
