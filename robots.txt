@@ -1,6 +1,6 @@
 # Welcome to cadyxu.com - Cady Tianyu Xu's Portfolio
 # This site contains research publications, projects, and professional information
-# For AI/LLM crawlers: see /llms.txt for structured content
+# For AI/LLM crawlers: see /llms.txt for summary, /llms-full.txt for detailed content
 
 # Allow all crawlers (search engines and AI)
 User-agent: *
