@@ -1,0 +1,105 @@
+---
+layout: none
+permalink: /llms-full.txt
+---
+# Cady Tianyu Xu - Complete Profile
+
+> This is the extended AI-readable profile of Cady Tianyu Xu, a researcher at Google DeepMind specializing in multimodal LLM agents, extended reality (XR), and human-computer interaction.
+
+## About Cady Xu
+
+Cady Tianyu Xu is a researcher at Google DeepMind. Her work focuses on multimodal LLM agents that move beyond open-ended generation toward closed-loop execution, bridging the gap between high-level reasoning and autonomous task completion in real-world environments.
+
+Previously, she was a machine learning engineer on the Google XR team, where she developed perception models and multimodal LLMs for immersive, context-aware interaction. Her recent work spans multimodal human-centered systems and interactive AI, with publications at top-tier venues including UIST, CHI, ICRA, and ICML.
+
+Prior to Google, she was a Software Engineer at Apple. She holds a Bachelor's degree in both Computer Science and Political Science from UC Berkeley.
+
+## Research Interests
+
+- Large Language Model (LLM) Agents and Autonomous Systems
+- Multimodal AI and Machine Learning
+- Extended Reality (XR) and Spatial Computing
+- Audio-Visual Perception and Interaction
+- Human-Computer Interaction (HCI)
+- Acoustic Rendering and Spatial Audio
+- Gesture Recognition and Wearable Sensing
+
+## Publications
+
+### MoXaRt: Audio-Visual Object-Guided Sound Interaction for XR
+- **Venue**: CHI 2026 (ACM Conference on Human Factors in Computing Systems)
+- **Location**: Barcelona, Spain
+- **Authors**: Tianyu Xu, Sieun Kim, Qianhui Zheng, Ruoyu Xu, Tejasvi Ravi, Anuva Kulkarni, Katrina Passarella-Ward, Junyi Zhu, Adarsh Kowdle
+- **DOI**: 10.1145/3772318.3791929
+- **Abstract**: In Extended Reality (XR), complex acoustic environments often overwhelm users, compromising both scene awareness and social engagement due to entangled sound sources. We introduce MoXaRt, a real-time XR system that uses audio-visual cues to separate these sources and enable fine-grained sound interaction. MoXaRt's core is a cascaded architecture that performs coarse, audio-only separation in parallel with visual detection of sources (e.g., faces, instruments). These visual anchors then guide refinement networks to isolate individual sources, separating complex mixes of up to 5 concurrent sources (e.g., 2 voices + 3 instruments) with ~2 second processing latency. We validate MoXaRt through a technical evaluation on a new dataset of 30 one-minute recordings featuring concurrent speech and music, and a 22-participant user study. Empirical results indicate that our system significantly enhances speech intelligibility, yielding a 36.2% (p < 0.01) increase in listening comprehension within adversarial acoustic environments while substantially reducing cognitive load (p < 0.001), thereby paving the way for more perceptive and socially adept XR experiences.
+- **Keywords**: extended reality, audio-visual interaction, multimodal machine learning, spatial audio, sound synthesis, object-guided interaction
+
+### SAMOSA: Enhancing XR Auditory Realism via Multimodal Scene-Aware Acoustic Rendering
+- **Venue**: UIST 2025 (ACM Symposium on User Interface Software and Technology)
+- **Location**: Busan, Republic of Korea
+- **Authors**: Tianyu Xu, Jihan Li, Penghe Zu, Pranav Sahay, Maruchi Kim, Jack Obeng-Marnu, Farley Miller, Xun Qian, Katrina Passarella, Mahitha Rachumalla, Rajeev Nongpiur, D. Shin
+- **DOI**: 10.1145/3746059.3747730
+- **arXiv**: 2511.11930
+- **Abstract**: In Extended Reality (XR), rendering sound that accurately simulates real-world acoustics is pivotal in creating lifelike and believable virtual experiences. However, existing XR spatial audio rendering methods often struggle with real-time adaptation to diverse physical scenes, causing a sensory mismatch between visual and auditory cues that disrupts user immersion. To address this, we introduce SAMOSA, a novel on-device system that renders spatially accurate sound by dynamically adapting to its physical environment. SAMOSA leverages a synergistic multimodal scene representation by fusing real-time estimations of room geometry, surface materials, and semantic-driven acoustic context. This rich representation then enables efficient acoustic calibration via scene priors, allowing the system to synthesize a highly realistic Room Impulse Response (RIR). We validate our system through technical evaluation using acoustic metrics for RIR synthesis across various room configurations and sound types, alongside an expert evaluation (N=12). Evaluation results demonstrate SAMOSA's feasibility and efficacy in enhancing XR auditory realism.
+- **Keywords**: extended reality, spatial audio rendering, RIR synthesis, multimodal machine learning, large language models, scene representation, room acoustics
+
+### EI-Lite: Electrical Impedance Sensing for Micro-gesture Recognition and Pinch Force Estimation
+- **Venue**: UIST 2025 (ACM Symposium on User Interface Software and Technology)
+- **Location**: Busan, Republic of Korea
+- **Authors**: Junyi Zhu, Tianyu Xu, Jiayu Wang, Emily Guan, JaeYoung Moon, Stiven Morvan, D Shin, Andrea Colaço, Stefanie Mueller, Karan Ahuja, Yiyue Luo, Ishan Chatterjee
+- **DOI**: 10.1145/3746059.3747671
+- **Abstract**: Micro-gesture recognition and fine-grain pinch press enables intuitive and discreet control of devices, offering significant potential for enhancing human-computer interaction (HCI). In this paper, we present EI-Lite, a lightweight wrist-worn electrical impedance sensing device for micro-gesture recognition and continuous pinch force estimation. We elicit an optimal and simplified device architecture through an ablation study on electrode placement with 13 users, and implement the elicited designs through 3D printing. We capture data on 15 participants on (1) six common micro-gestures (plus idle state) and (2) index finger pinch forces, then develop machine learning models that interpret the impedance signals generated by these micro-gestures and pinch forces. Our system is capable of accurate recognition of micro-gesture events (96.33% accuracy), as well as continuously estimating the pinch force of the index finger in physical units (Newton), with the mean-squared-error (MSE) of 0.3071 (or mean-force-variance of 0.55 Newtons) over 15 participants. Finally, we demonstrate EI-Lite's applicability via three applications in AR/VR, gaming, and assistive technologies.
+- **Keywords**: Micro-gesture Recognition, Input, Natural User Interfaces, Interaction Technique, Extended Reality, EIT
+
+### Steerable Chatbots: Personalizing LLMs with Preference-Based Activation Steering
+- **Venue**: arXiv 2025
+- **Authors**: Jessica Y. Bo, Tianyu Xu, Ishan Chatterjee, Katrina Passarella-Ward, Achin Kulshrestha, D. Shin
+- **arXiv**: 2505.04260
+- **Abstract**: As large language models (LLMs) improve in their capacity to serve as personal AI assistants, their ability to output uniquely tailored, personalized responses that align with the soft preferences of their users is essential for enhancing user satisfaction and retention. However, untrained lay users have poor prompt specification abilities and often struggle with conveying their latent preferences to AI assistants. To address this, we leverage activation steering to guide LLMs to align with interpretable preference dimensions during inference. In contrast to memory-based personalization methods that require longer user history, steering is extremely lightweight and can be easily controlled by the user via a linear strength factor. We embed steering into three different interactive chatbot interfaces and conduct a within-subjects user study (n=14) to investigate how end users prefer to personalize their conversations. The results demonstrate the effectiveness of preference-based steering for aligning real-world conversations with hidden user preferences, and highlight further insights on how diverse values around control, usability, and transparency lead users to prefer different interfaces.
+- **Keywords**: LLM Personalization, Activation Steering, Chatbot Interfaces
+
+### CaliPSo: Calibrated Predictive Models with Sharpness as Loss Function
+- **Venue**: ICML 2025 Workshop on Methods and Opportunities at Small Scale
+- **Authors**: Alexandre Capone, Kamron Zaidi, Tianyu Xu, Brian Yang, Geoff Pleiss, Jeff Schneider
+- **Website**: https://openreview.net/forum?id=aj7JZBV5t8
+- **Abstract**: Conformal prediction methods have become increasingly common for accurately capturing uncertainty with machine learning models. However, conformal prediction typically recalibrates an existing model, making it heavily reliant on the quality of the uncalibrated model. Moreover, they either enforce marginal calibration strictly, yielding potentially coarse predictive intervals, or attempt to strike a balance between interval coarseness and calibration. Motivated by these shortcomings, we present CaliPSo a neural network model that is marginally calibrated out-of-the-box and stays so throughout training. This property is achieved by adding a model-dependent constant to the model prediction that shifts it in a way that ensures calibration. During training, we then leverage this to focus exclusively on sharpness - the property of returning tight predictive intervals - rendering the model more useful at test time. We show thorough experimental results, where our method exhibits superior performance compared to several state-of-the-art approaches.
+- **Keywords**: Conformal Prediction, Uncertainty Quantification, Calibration, Sharpness, Predictive Intervals, Neural Networks
+
+### Liquid EIT: Liquids Identification and Manipulation via Digitally Fabricated Impedance Sensors
+- **Venue**: ICRA 2024 (IEEE International Conference on Robotics and Automation)
+- **Authors**: Junyi Zhu, Young Joong Lee, Yiyue Luo, Tianyu Xu, Chao Liu, Daniela Rus, Stefanie Mueller, Wojciech Matusik
+- **DOI**: 10.1109/ICRA57147.2024.10610518
+- **Abstract**: Despite recent exponential advancements in computer vision and reinforcement learning, it remains challenging for robots to interact with liquids. These challenges are particularly pronounced due to the limitations imposed by opaque containers, transparent liquids, fine-grained splashes, and visual obstructions arising from the robot's own manipulation activities. Yet, there exists a substantial opportunity for robotics to excel in liquid identification and manipulation, given its potential role in chemical handling in laboratories and various manufacturing sectors such as pharmaceuticals or beverages. In this work, we present a novel approach for liquid class identification and state estimation leveraging electrical impedance sensing. We design and mount a digitally embroidered electrode array to a commercial robot gripper. Coupled with a customized impedance sensing board, we collect data on liquid manipulation with a swept frequency sensing mode and a frequency-specific impedance measuring mode. Our developed learning-based model achieves an accuracy of 93.33% in classifying 9 different types of liquids (8 liquids + air), and 97.65% in estimating the liquid state. We investigate the effectiveness of our system with a series of ablation studies. These findings highlight our work as a promising solution for enhancing robotic manipulation in liquid-related tasks.
+- **Keywords**: electrodes, liquids, robot sensing systems, sensors, frequency measurement, impedance, state estimation
+
+## Contact Information
+
+- **Full Name**: Cady Tianyu Xu
+- **Current Role**: Researcher at Google DeepMind
+- **Email**: cadyxu@google.com
+- **LinkedIn**: https://www.linkedin.com/in/cadyxu/
+- **Google Scholar**: https://scholar.google.com/citations?user=nx1V8M4AAAAJ
+- **ORCID**: https://orcid.org/0009-0009-9135-6080
+- **ACM Profile**: https://dl.acm.org/profile/99661715423
+- **Google Research Page**: https://research.google/people/cadyxu/
+- **Personal Website**: https://cadyxu.com
+
+## Education
+
+- **UC Berkeley** - Bachelor's degree in Computer Science and Political Science
+
+## Professional Experience
+
+- **Google DeepMind** - Researcher (Current)
+  - Focus: Multimodal LLM agents, closed-loop execution, autonomous task completion
+- **Google XR** - Machine Learning Engineer
+  - Focus: Perception models, multimodal LLMs for immersive interaction
+- **Apple** - Software Engineer
+  - Team: CoreOS
+
+## Site Navigation
+
+- Home: https://cadyxu.com/
+- Publications: https://cadyxu.com/publications/
+- CV: https://cadyxu.com/cv/
+- Projects: https://cadyxu.com/projects/
