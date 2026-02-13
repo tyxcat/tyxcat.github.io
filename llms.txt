@@ -1,0 +1,58 @@
+---
+layout: none
+permalink: /llms.txt
+---
+# Cady Tianyu Xu - Personal Website
+
+> This is the personal academic portfolio of Cady Tianyu Xu, a researcher at Google DeepMind working on LLM agents and multimodal AI.
+
+## About Cady Xu
+
+Cady Tianyu Xu is a researcher at Google DeepMind. Her work focuses on multimodal LLM agents that move beyond open-ended generation toward closed-loop execution, bridging the gap between high-level reasoning and autonomous task completion in real-world environments. Previously, she was a machine learning engineer on the Google XR team, developing perception models and multimodal LLMs for immersive, context-aware interaction. Her recent work spans multimodal human-centered systems and interactive AI, with publications at UIST and CHI. She holds a Bachelor's degree in Computer Science and Political Science from UC Berkeley.
+
+## Research Interests
+
+- Large Language Model (LLM) Agents
+- Multimodal AI and Machine Learning
+- Extended Reality (XR) and Spatial Computing
+- Audio-Visual Perception and Interaction
+- Human-Computer Interaction (HCI)
+
+## Selected Publications
+
+### MoXaRt (CHI 2026)
+Audio-Visual Object-Guided Sound Interaction for XR. A real-time XR system that uses audio-visual cues to separate sound sources and enable fine-grained sound interaction. Authors: Tianyu Xu et al.
+
+### SAMOSA (UIST 2025)  
+Enhancing XR Auditory Realism via Multimodal Scene-Aware Acoustic Rendering. An on-device system that renders spatially accurate sound by dynamically adapting to physical environments. Authors: Tianyu Xu et al.
+
+### EI-Lite (UIST 2025)
+Electrical Impedance Sensing for Micro-gesture Recognition and Pinch Force Estimation. A lightweight wrist-worn device for micro-gesture recognition. Authors: Junyi Zhu, Tianyu Xu et al.
+
+### Steerable Chatbots (arXiv 2025)
+Personalizing LLMs with Preference-Based Activation Steering. Lightweight LLM personalization via activation steering. Authors: Jessica Y. Bo, Tianyu Xu et al.
+
+### CaliPSo (ICML 2025 Workshop)
+Calibrated Predictive Models with Sharpness as Loss Function. Neural network model for uncertainty quantification with marginal calibration. Authors: Alexandre Capone, Kamron Zaidi, Tianyu Xu et al.
+
+### Liquid EIT (ICRA 2024)
+Liquids Identification and Manipulation via Digitally Fabricated Impedance Sensors. Robot sensing for liquid manipulation. Authors: Junyi Zhu, Young Joong Lee, Yiyue Luo, Tianyu Xu et al.
+
+## Contact Information
+
+- Full Name: Cady Tianyu Xu
+- Current Role: researcher at Google DeepMind
+- Email: tyx@google.com
+- LinkedIn: https://www.linkedin.com/in/cadyxu/
+- Google Scholar: https://scholar.google.com/citations?user=nx1V8M4AAAAJ
+- ORCID: https://orcid.org/0009-0009-9135-6080
+- ACM Profile: https://dl.acm.org/profile/99661715423
+- Work Page: https://research.google/people/cadyxu/
+- Website: https://cadyxu.com
+
+## Site Links
+
+- Home: https://cadyxu.com/
+- Publications: https://cadyxu.com/publications/
+- CV: https://cadyxu.com/cv/
+- Projects: https://cadyxu.com/projects/

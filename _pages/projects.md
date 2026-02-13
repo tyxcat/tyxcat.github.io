@@ -2,7 +2,8 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research and engineering projects by Cady Xu in LLM agents, multimodal AI, XR audio systems, and machine learning applications.
+keywords: Cady Xu projects, AI projects, LLM applications, XR development
 nav: false
 nav_order: 3
 display_categories: [work, fun]

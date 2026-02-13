@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://deepmind.google.com/'>Google DeepMind</a>, Multimodal LLM Agent, Input & Intent Perception.
+subtitle: <a href='https://deepmind.google.com/'>Google DeepMind</a> · LLM Agents · Multimodal AI
+description: Cady Tianyu Xu is a researcher at Google DeepMind working on LLM agents and multimodal AI. Previously at Google XR and Apple CoreOS. UC Berkeley CS graduate.
+keywords: Cady Xu, Tianyu Xu, Google DeepMind, LLM agents, multimodal AI, XR, researcher, autonomous agents, machine learning
 
 profile:
   align: left
@@ -26,13 +28,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! 👋 I'm Cady, a Software Engineer at Google DeepMind. 🌀 As part of the GenAI team, I am currently focused on building LLM agents, exploring how they can be used to solve complex real-world problems. My goal is to develop highly capable and reliable agents that can interact intelligently with dynamic environments.
+Hello! 👋 I'm Cady, a researcher at Google DeepMind. 🌀 My work focuses on multimodal LLM agents that move beyond open-ended generation toward closed-loop execution, bridging the gap between high-level reasoning and autonomous task completion in real-world environments.
 
-Before joining DeepMind, I was a Machine Learning Engineer on the Google XR team. 🕶️ There, my work centered on the research and development of Perception Models and Multimodal LLMs to enhance XR experiences, making user interactions more intuitive and contextually aware.
+Previously, I was a machine learning engineer on the Google XR team, where I developed perception models and multimodal LLMs for immersive, context-aware interaction. 🕶️ My recent work also spans multimodal human-centered systems and interactive AI, with publications at UIST and CHI.
 
-Prior to my roles at Google, I served as a Software Engineer at Apple  on the CoreOS team. I received my Bachelor's degree in Computer Science from UC Berkeley. 🐻
+Prior to my roles at Google, I was a Software Engineer at Apple. I received my Bachelor's degree in both Computer Science and Political Science from UC Berkeley. 🐻
 
-I am always happy to connect with other researchers and practitioners working on LLMs, XR, or autonomous agents. Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/cadyxu/), [Email](mailto:[tyx@google.com]), or explore my publications on [Google Scholar](https://scholar.google.com/citations?hl=en&user=nx1V8M4AAAAJ) for potential collaborations! 🐑
+I'm always excited to connect with researchers and practitioners working on LLMs, XR, or autonomous agents. Reach out via [LinkedIn](https://www.linkedin.com/in/cadyxu/) or [email](mailto:cadyxu@google.com), or check out my [Google Scholar](https://scholar.google.com/citations?hl=en&user=nx1V8M4AAAAJ) for potential collaborations! 🐑
 
 <!-- I am actively seeking student researchers and interns to collaborate with me for the Summer 2026 term. If you have a strong background in machine learning (especially multimodal models), computer vision, or LLMs and are passionate about building the next generation of intuitive AR experiences, please feel free to reach out. -->
 <!-- Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
