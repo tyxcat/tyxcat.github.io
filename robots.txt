@@ -1,4 +1,32 @@
+# Welcome to cadyxu.com - Cady Tianyu Xu's Portfolio
+# This site contains research publications, projects, and professional information
+# For AI/LLM crawlers: see /llms.txt for structured content
+
+# Allow all crawlers (search engines and AI)
 User-agent: *
 Disallow:
 
-Sitemap: https://tyxcat.github.io/sitemap.xml
+# Explicitly allow AI crawlers for GEO (Generative Engine Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+# Sitemap location (uses canonical URL from _config.yml)
+Sitemap: https://cadyxu.com/sitemap.xml
