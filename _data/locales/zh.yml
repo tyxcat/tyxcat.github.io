@@ -1,7 +1,7 @@
 # Chinese translations
 # About page
 about:
-  title: "胥天雨 Cady"
+  title: "胥天雨"
   subtitle: '<a href="https://deepmind.google.com/">Google DeepMind</a> · 大语言模型智能体 · 多模态AI'
   bio: |
     你好！👋 我是胥天雨，目前在 Google DeepMind 担任研究员。🌀 我的工作聚焦于多模态大语言模型智能体——从开放式生成迈向闭环执行，弥合高层推理与真实环境中自主任务完成之间的鸿沟。
@@ -21,7 +21,7 @@ sections:
 # Navbar
 nav:
   about: "关于"
-  brand: "胥天雨 Cady"
+  brand: "胥天雨"
   publications: "论文"
   news: "动态"
 
