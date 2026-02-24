@@ -1,0 +1,33 @@
+# English translations
+# About page
+about:
+  title: "Cady Tianyu Xu"
+  subtitle: '<a href="https://deepmind.google.com/">Google DeepMind</a> · LLM Agents · Multimodal AI'
+  bio: |
+    Hello! 👋 I'm Cady, a researcher at Google DeepMind. 🌀 My work focuses on multimodal LLM agents that move beyond open-ended generation toward closed-loop execution, bridging the gap between high-level reasoning and autonomous task completion in real-world environments.
+  bio_2: |
+    Previously, I was a machine learning engineer on the Google XR team, where I developed perception models and multimodal LLMs for immersive, context-aware interaction. 🕶️ My recent work also spans multimodal human-centered systems and interactive AI, with publications at UIST and CHI.
+  bio_3: |
+    Prior to my roles at Google, I was a Software Engineer at Apple. I received my Bachelor's degree in both Computer Science and Political Science from UC Berkeley. 🐻
+  bio_4: |
+    I'm always excited to connect with researchers and practitioners working on LLMs, XR, or autonomous agents. Reach out via <a href="https://www.linkedin.com/in/cadyxu/">LinkedIn</a> or <a href="mailto:cadyxu@google.com">email</a>, or check out my <a href="https://scholar.google.com/citations?hl=en&user=nx1V8M4AAAAJ">Google Scholar</a> for potential collaborations! 🐑
+
+# Section headings
+sections:
+  news: "news"
+  latest_posts: "latest posts"
+  selected_publications: "selected publications"
+
+# Navbar
+nav:
+  about: "about"
+  brand: "Cady Tianyu Xu"
+  publications: "publications"
+  news: "news"
+
+# News items
+news:
+  announcement_1: '2 papers accepted to <a href="https://uist.acm.org/2025/">UIST 2025</a>! 🎉🎉'
+  announcement_2: 'Serving as a reviewer for <a href="https://chi2026.acm.org/">CHI 2026</a>! 🤠'
+  announcement_3: 'Joined <a href="https://deepmind.google/">Google DeepMind</a>! 🌀🌀🌀'
+  announcement_4: 'Project MoXaRt has been conditionally accepted to <a href="https://chi2026.acm.org/">CHI 2026</a>.'

@@ -384,7 +384,8 @@ ul.task-list input[type="checkbox"] {
 }
 
 #light-toggle,
-#search-toggle {
+#search-toggle,
+#lang-toggle {
   padding: 0;
   border: 0;
   background-color: inherit;
@@ -392,6 +393,17 @@ ul.task-list input[type="checkbox"] {
 
   &:hover {
     color: var(--global-hover-color);
+  }
+}
+
+#lang-toggle {
+  cursor: pointer;
+
+  .lang-toggle-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 0.1rem 0.2rem;
   }
 }
 

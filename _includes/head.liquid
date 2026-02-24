@@ -84,6 +84,16 @@
   </script>
 {% endif %}
 
+<!-- Language Toggle -->
+<script src="{{ '/assets/js/lang-toggle.js' | relative_url | bust_file_cache }}"></script>
+<script>
+  window.__langData__ = {
+    "en": {{ site.data.locales.en | jsonify }},
+    "zh": {{ site.data.locales.zh | jsonify }}
+  };
+  initLang();
+</script>
+
 {% if page.map %}
   <!-- GeoJSON support via Leaflet -->
   <link

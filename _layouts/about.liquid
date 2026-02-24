@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">
+    <h1 class="post-title" data-i18n="about.title">
       {% if site.title == 'blank' %}
         {{ site.first_name }}
         {{ site.middle_name }}
@@ -12,7 +12,7 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <p class="desc" data-i18n="about.subtitle">{{ page.subtitle }}</p>
   </header>
 
   <article>
@@ -39,12 +39,17 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix">
+      <p data-i18n="about.bio">{{ site.data.locales.en.about.bio }}</p>
+      <p data-i18n="about.bio_2">{{ site.data.locales.en.about.bio_2 }}</p>
+      <p data-i18n="about.bio_3">{{ site.data.locales.en.about.bio_3 }}</p>
+      <p data-i18n="about.bio_4">{{ site.data.locales.en.about.bio_4 }}</p>
+    </div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit" data-i18n="sections.news">news</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -52,7 +57,7 @@ layout: default
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit" data-i18n="sections.latest_posts">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
@@ -60,7 +65,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit" data-i18n="sections.selected_publications">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}

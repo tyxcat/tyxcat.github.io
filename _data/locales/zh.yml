@@ -1,0 +1,33 @@
+# Chinese translations
+# About page
+about:
+  title: "胥天雨 Cady"
+  subtitle: '<a href="https://deepmind.google.com/">Google DeepMind</a> · 大语言模型智能体 · 多模态AI'
+  bio: |
+    你好！👋 我是胥天雨，目前在 Google DeepMind 担任研究员。🌀 我的工作聚焦于多模态大语言模型智能体——从开放式生成迈向闭环执行，弥合高层推理与真实环境中自主任务完成之间的鸿沟。
+  bio_2: |
+    此前，我在 Google XR 团队担任机器学习工程师，负责开发感知模型和多模态大语言模型，用于沉浸式、情景感知的交互体验。🕶️ 我的近期研究还涵盖多模态人机交互系统和交互式AI，成果已发表于 UIST 和 CHI 等顶级会议。
+  bio_3: |
+    在加入 Google 之前，我曾在 Apple 担任软件工程师。我在加州大学伯克利分校获得了计算机科学和政治学的双学士学位。🐻
+  bio_4: |
+    非常期待与从事大语言模型、XR 或自主智能体研究的同行交流合作。欢迎通过 <a href="https://www.linkedin.com/in/cadyxu/">LinkedIn</a> 或 <a href="mailto:cadyxu@google.com">邮件</a> 联系我，也欢迎查看我的 <a href="https://scholar.google.com/citations?hl=en&user=nx1V8M4AAAAJ">Google Scholar</a> 主页探讨合作机会！🐑
+
+# Section headings
+sections:
+  news: "动态"
+  latest_posts: "最新文章"
+  selected_publications: "精选论文"
+
+# Navbar
+nav:
+  about: "关于"
+  brand: "胥天雨 Cady"
+  publications: "论文"
+  news: "动态"
+
+# News items
+news:
+  announcement_1: '2 篇论文被 <a href="https://uist.acm.org/2025/">UIST 2025</a> 录用！🎉🎉'
+  announcement_2: '担任 <a href="https://chi2026.acm.org/">CHI 2026</a> 审稿人！🤠'
+  announcement_3: '加入 <a href="https://deepmind.google/">Google DeepMind</a>！🌀🌀🌀'
+  announcement_4: 'MoXaRt 项目已被 <a href="https://chi2026.acm.org/">CHI 2026</a> 有条件录用。'

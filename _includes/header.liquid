@@ -3,7 +3,7 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/" data-i18n="nav.brand">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               {% comment %} <span class="font-weight-bold"> {% endcomment %}
@@ -48,7 +48,7 @@
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+            <a class="nav-link" href="{{ '/' | relative_url }}" data-i18n="nav.about">
               {{- about_title }}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
@@ -107,7 +107,7 @@
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
+                  <a class="nav-link" href="{{ url | relative_url }}" data-i18n="nav.{{ p.title }}">
                     {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
@@ -135,6 +135,13 @@
               </button>
             </li>
           {% endif %}
+          <!-- Language toggle -->
+          <li class="toggle-container">
+            <button id="lang-toggle" title="Switch language / 切换语言">
+              <span id="lang-toggle-en" class="lang-toggle-label">EN</span>
+              <span id="lang-toggle-zh" class="lang-toggle-label" style="display:none;">中</span>
+            </button>
+          </li>
         </ul>
       </div>
     </div>

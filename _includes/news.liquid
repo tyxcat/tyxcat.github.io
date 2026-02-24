@@ -20,7 +20,11 @@
               <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
               <td>
                 {% if item.inline %}
-                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  {% assign news_slug = item.path | split: '/' | last | split: '.' | first %}
+                  {% assign i18n_key = 'news.' | append: news_slug %}
+                  <span data-i18n="{{ i18n_key }}">
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  </span>
                 {% else %}
                   <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                 {% endif %}
