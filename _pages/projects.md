@@ -4,9 +4,9 @@ title: projects
 permalink: /projects/
 description: Research and engineering projects by Cady Xu in LLM agents, multimodal AI, XR audio systems, and machine learning applications.
 keywords: Cady Xu projects, AI projects, LLM applications, XR development
-nav: false
+nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research]
 horizontal: false
 ---
 
