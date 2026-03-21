@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Research and engineering projects by Cady Xu in LLM agents, multimodal AI, XR audio systems, and machine learning applications.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-news",
           title: "news",
           description: "",
@@ -32,10 +39,18 @@ ninja.data = [{
           section: "News",},{id: "news-joined-google-deepmind",
           title: 'Joined Google DeepMind! 🌀🌀🌀',
           description: "",
-          section: "News",},{id: "news-project-moxart-has-been-conditionally-accepted-to-chi-2026",
-          title: 'Project MoXaRt has been conditionally accepted to CHI 2026.',
+          section: "News",},{id: "news-project-moxart-has-been-accepted-to-chi-2026",
+          title: 'Project MoXaRt has been accepted to CHI 2026.',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "news-thrilled-to-be-a-speaker-at-the-2026-silicon-valley-women-in-engineering-conference-i-ll-be-presenting-sound-space-and-agency-building-context-aware-wearable-systems-in-the-emerging-technologies-c2-ux-amp-amp-wearable-technology-session-sat-3-21-at-1-45-2-45-pm-️",
+          title: 'Thrilled to be a speaker at the 2026 Silicon Valley Women in Engineering...',
+          description: "",
+          section: "News",},{id: "projects-moxart",
+          title: 'MoXaRt',
+          description: "Audio-Visual Object-Guided Sound Interaction for XR",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/moxart/";
+            },},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
