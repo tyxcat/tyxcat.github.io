@@ -1,7 +1,6 @@
 ---
 layout: page
-title: MoXaRt
-description: Audio-Visual Object-Guided Sound Interaction for XR
+title: "MoXaRt: Audio-Visual Object-Guided Sound Interaction for XR"
 img: assets/img/publication_preview/moxart.jpg
 importance: 1
 category: research
