@@ -45,9 +45,9 @@ ninja.data = [{
           section: "News",},{id: "news-thrilled-to-be-a-speaker-at-the-2026-silicon-valley-women-in-engineering-conference-i-ll-be-presenting-sound-space-and-agency-building-context-aware-wearable-systems-in-the-emerging-technologies-c2-ux-amp-amp-wearable-technology-session-sat-3-21-at-1-45-2-45-pm-️",
           title: 'Thrilled to be a speaker at the 2026 Silicon Valley Women in Engineering...',
           description: "",
-          section: "News",},{id: "projects-moxart",
-          title: 'MoXaRt',
-          description: "Audio-Visual Object-Guided Sound Interaction for XR",
+          section: "News",},{id: "projects-moxart-audio-visual-object-guided-sound-interaction-for-xr",
+          title: 'MoXaRt: Audio-Visual Object-Guided Sound Interaction for XR',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/moxart/";
             },},{
