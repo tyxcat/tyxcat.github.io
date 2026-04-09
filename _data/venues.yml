@@ -1,9 +1,22 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Venue abbreviations and styling for publications
+# These are used to display colored badges next to publication entries
 
-"PhysRev":
-  url: https://journals.aps.org/
+"CHI":
+  url: https://chi2026.acm.org/
+  color: "#0085ca"
 
-"Vision":
-  color: "#009f36"
+"UIST":
+  url: https://uist.acm.org/2025/
+  color: "#e85d04"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#7b2d8e"
+
+"ICML":
+  url: https://icml.cc/
+  color: "#00796b"
+
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#1565c0"

@@ -17,9 +17,9 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
-      Created on {{ page.date | date: '%B %d, %Y' }}
-      {% if page.author %}by {{ page.author }}{% endif %}
-      {% if page.last_updated %}, last updated on {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
+      <span data-i18n="posts.created_on">Created on</span> {{ page.date | date: '%B %d, %Y' }}
+      {% if page.author %}<span data-i18n="posts.by">by</span> {{ page.author }}{% endif %}
+      {% if page.last_updated %}, <span data-i18n="posts.last_updated_on">last updated on</span> {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
       {% if page.meta %}• {{ page.meta }}{% endif %}
     </p>
     <p class="post-tags">
@@ -75,7 +75,7 @@ layout: default
   {% endif %}
 
   {% if page.related_publications %}
-    <h2>References</h2>
+    <h2 data-i18n="posts.references">References</h2>
     <div class="publications">
       {% bibliography --group_by none --cited_in_order %}
     </div>

@@ -39,12 +39,7 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">
-      <p data-i18n="about.bio">{{ site.data.locales.en.about.bio }}</p>
-      <p data-i18n="about.bio_2">{{ site.data.locales.en.about.bio_2 }}</p>
-      <p data-i18n="about.bio_3">{{ site.data.locales.en.about.bio_3 }}</p>
-      <p data-i18n="about.bio_4">{{ site.data.locales.en.about.bio_4 }}</p>
-    </div>
+    <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
