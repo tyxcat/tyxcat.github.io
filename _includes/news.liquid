@@ -15,7 +15,7 @@
           {% assign news_limit = news_size %}
         {% endif %}
         {% if include.limit %}
-          {% assign filtered_news = "" | split: "" %}
+          {% assign filtered_news = '' | split: '' %}
           {% for item in news %}
             {% if item.featured == true %}
               {% assign filtered_news = filtered_news | push: item %}

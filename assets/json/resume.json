@@ -57,13 +57,7 @@
   "skills": [
     {
       "name": "Research Areas",
-      "keywords": [
-        "LLM Agents",
-        "Multimodal AI",
-        "Human-Computer Interaction",
-        "Extended Reality (XR)",
-        "Perception Models"
-      ]
+      "keywords": ["LLM Agents", "Multimodal AI", "Human-Computer Interaction", "Extended Reality (XR)", "Perception Models"]
     }
   ],
   "languages": [
@@ -79,11 +73,7 @@
   "interests": [
     {
       "name": "Autonomous Agents",
-      "keywords": [
-        "Closed-loop execution",
-        "Task completion",
-        "Real-world grounding"
-      ]
+      "keywords": ["Closed-loop execution", "Task completion", "Real-world grounding"]
     }
   ]
 }

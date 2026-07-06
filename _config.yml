@@ -249,7 +249,6 @@ jekyll-archives:
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
 
-
 display_tags: [] # add your own blog tags here
 display_categories: [] # add your own blog categories here
 

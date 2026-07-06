@@ -33,7 +33,7 @@ Imagine sitting in a noisy café where a guitarist, a cellist, and two people ar
 
 ## 🎯 The Problem
 
-In real-world XR environments, sound sources are **entangled** — voices overlap with music, instruments bleed into each other. Existing spatial audio techniques can filter by *direction*, but they can't separate two sources coming from the same location.
+In real-world XR environments, sound sources are **entangled** — voices overlap with music, instruments bleed into each other. Existing spatial audio techniques can filter by _direction_, but they can't separate two sources coming from the same location.
 
 MoXaRt solves this by combining **what you see** with **what you hear** — using visual detection of sound-producing objects (faces, instruments) to guide precise audio separation.
 
@@ -104,12 +104,12 @@ Multiple people speaking at once. By visually selecting a specific person, MoXaR
 
 We validated MoXaRt through a technical evaluation on a new dataset of 30 one-minute recordings featuring concurrent speech and music, and a **22-participant user study**.
 
-| Metric | Result |
-|---|---|
+| Metric                     | Result                                               |
+| -------------------------- | ---------------------------------------------------- |
 | **Speech intelligibility** | 36.2% increase in listening comprehension (p < 0.01) |
-| **Cognitive load** | Significantly reduced (p < 0.001) |
-| **Concurrent sources** | Up to 5 (e.g., 2 voices + 3 instruments) |
-| **Processing latency** | ~2 seconds |
+| **Cognitive load**         | Significantly reduced (p < 0.001)                    |
+| **Concurrent sources**     | Up to 5 (e.g., 2 voices + 3 instruments)             |
+| **Processing latency**     | ~2 seconds                                           |
 
 <div style="margin-bottom: 3rem;"></div>
 

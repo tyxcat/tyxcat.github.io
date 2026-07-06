@@ -33,7 +33,7 @@ What if sounds in your XR headset actually <strong>matched the room you're in</s
 
 ## 🎯 The Problem
 
-In XR, realistic sound is crucial for immersion — but existing spatial audio systems use **static, one-size-fits-all acoustics**. A cathedral and a closet get the same reverb. This mismatch between what you *see* and what you *hear* breaks the illusion.
+In XR, realistic sound is crucial for immersion — but existing spatial audio systems use **static, one-size-fits-all acoustics**. A cathedral and a closet get the same reverb. This mismatch between what you _see_ and what you _hear_ breaks the illusion.
 
 SAMOSA fixes this by building a **real-time understanding of your physical space** — its geometry, materials, and acoustic character — and using that to synthesize audio that sounds like it truly belongs there.
 
@@ -76,12 +76,12 @@ These three streams feed into an efficient **acoustic calibration engine** that 
 
 We validated SAMOSA through technical evaluation using acoustic metrics for RIR synthesis across various room configurations and sound types, alongside an **expert evaluation (N=12)**.
 
-| Aspect | Finding |
-|---|---|
+| Aspect                  | Finding                                                   |
+| ----------------------- | --------------------------------------------------------- |
 | **Room configurations** | Validated across diverse geometries and surface materials |
-| **Sound types** | Tested with speech, music, and environmental audio |
-| **Expert evaluation** | 12 audio professionals confirmed enhanced realism |
-| **On-device** | Runs in real time on XR hardware |
+| **Sound types**         | Tested with speech, music, and environmental audio        |
+| **Expert evaluation**   | 12 audio professionals confirmed enhanced realism         |
+| **On-device**           | Runs in real time on XR hardware                          |
 
 <div style="margin-bottom: 3rem;"></div>
 

@@ -48,7 +48,9 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     {% if entry.website %}
-      <div class="title"><a href="{{ entry.website }}">{{ entry.title }}</a></div>
+      <div class="title">
+        <a href="{{ entry.website }}">{{ entry.title }}</a>
+      </div>
     {% else %}
       <div class="title">{{ entry.title }}</div>
     {% endif %}
@@ -192,7 +194,11 @@
     <div class="links">
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}<span data-i18n="bib.awarded">Awarded</span>{% endif -%}
+          {%- if entry.award_name -%}
+            {{- entry.award_name -}}
+          {%- else -%}
+            <span data-i18n="bib.awarded">Awarded</span>
+          {%- endif -%}
         </a>
       {% endif %}
       {% if entry.abstract %}
@@ -211,7 +217,9 @@
         {% if entry.html contains '://' %}
           <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" data-i18n="bib.html">HTML</a>
         {% else %}
-          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" data-i18n="bib.html">HTML</a>
+          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" data-i18n="bib.html"
+            >HTML</a
+          >
         {% endif %}
       {% endif %}
       {% if entry.pdf %}
@@ -243,14 +251,18 @@
         {% if entry.poster contains '://' %}
           <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button" data-i18n="bib.poster">Poster</a>
         {% else %}
-          <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" data-i18n="bib.poster">Poster</a>
+          <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" data-i18n="bib.poster"
+            >Poster</a
+          >
         {% endif %}
       {% endif %}
       {% if entry.slides %}
         {% if entry.slides contains '://' %}
           <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button" data-i18n="bib.slides">Slides</a>
         {% else %}
-          <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" data-i18n="bib.slides">Slides</a>
+          <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" data-i18n="bib.slides"
+            >Slides</a
+          >
         {% endif %}
       {% endif %}
       {% if entry.website %}

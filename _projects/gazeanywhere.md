@@ -30,7 +30,7 @@ What if you could ask an AI <strong>"where is the boy in the red shirt looking?"
 
 ## 🎯 The Problem
 
-Estimating where people are looking in real-world images is notoriously tough. Current methods rely on **brittle, multi-stage pipelines** that require rigid inputs like head bounding boxes and human pose. Detection errors cascade through the pipeline, and there's no way to use natural language to specify *who* you want to analyze.
+Estimating where people are looking in real-world images is notoriously tough. Current methods rely on **brittle, multi-stage pipelines** that require rigid inputs like head bounding boxes and human pose. Detection errors cascade through the pipeline, and there's no way to use natural language to specify _who_ you want to analyze.
 
 ---
 
