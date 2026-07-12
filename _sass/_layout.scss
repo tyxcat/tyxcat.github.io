@@ -84,7 +84,6 @@ body.sticky-bottom-footer {
 
   .profile {
     margin-bottom: 1.25rem;
-    margin-right: 2.25rem;
     width: 34%;
 
     img {
@@ -95,6 +94,10 @@ body.sticky-bottom-footer {
       object-fit: cover;
       object-position: center 30%;
     }
+  }
+
+  .profile.float-left {
+    margin-right: 2.75rem;
   }
 
   .intro {
@@ -211,7 +214,7 @@ html[data-theme="dark"] .about-page {
       font-size: 3.25rem;
     }
 
-    .profile {
+    .profile.float-left {
       float: none !important;
       margin: 0 0 2.25rem;
       width: min(78vw, 320px);

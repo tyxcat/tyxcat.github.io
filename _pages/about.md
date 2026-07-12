@@ -29,7 +29,7 @@ latest_posts:
 ---
 
 <p class="intro">
-I'm Cady, a researcher at Google DeepMind. I build multimodal LLM agents that move beyond open-ended generation toward closed-loop execution, bridging high-level reasoning and autonomous task completion in real-world environments.
+I'm Cady, a researcher at Google DeepMind. I build multimodal AI agents that connect reasoning with action in complex, real-world environments.
 </p>
 
 Previously, I was a machine learning engineer on the Google XR team, where I developed perception models and multimodal LLMs for immersive, context-aware interaction. My recent work also spans multimodal human-centered systems and interactive AI, with publications at CVPR, UIST, and CHI.
