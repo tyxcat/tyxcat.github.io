@@ -28,10 +28,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! 👋 I'm Cady, a researcher at Google DeepMind. 🌀 My work focuses on multimodal LLM agents that move beyond open-ended generation toward closed-loop execution, bridging the gap between high-level reasoning and autonomous task completion in real-world environments.
+<p class="intro">
+I'm Cady, a researcher at Google DeepMind. I build multimodal LLM agents that move beyond open-ended generation toward closed-loop execution, bridging high-level reasoning and autonomous task completion in real-world environments.
+</p>
 
-Previously, I was a machine learning engineer on the Google XR team, where I developed perception models and multimodal LLMs for immersive, context-aware interaction. 🕶️ My recent work also spans multimodal human-centered systems and interactive AI, with publications at UIST and CHI.
+Previously, I was a machine learning engineer on the Google XR team, where I developed perception models and multimodal LLMs for immersive, context-aware interaction. My recent work also spans multimodal human-centered systems and interactive AI, with publications at CVPR, UIST, and CHI.
 
-Prior to my roles at Google, I was a Software Engineer at Apple. I received my Bachelor's degree in both Computer Science and Political Science from UC Berkeley. 🐻
+Prior to Google, I was a software engineer at Apple. I received bachelor's degrees in Computer Science and Political Science from UC Berkeley.
 
-I'm always excited to connect with researchers and practitioners working on LLMs, XR, or autonomous agents. Reach out via [LinkedIn](https://www.linkedin.com/in/cadyxu/) or [email](mailto:cadyxu@google.com), or check out my [Google Scholar](https://scholar.google.com/citations?hl=en&user=nx1V8M4AAAAJ) for potential collaborations! 🐑
+<div class="about-actions">
+  <a href="mailto:cadyxu@google.com">Email me <span aria-hidden="true">&#8599;</span></a>
+  <a href="https://scholar.google.com/citations?hl=en&user=nx1V8M4AAAAJ">Google Scholar <span aria-hidden="true">&#8599;</span></a>
+  <a href="https://www.linkedin.com/in/cadyxu/">LinkedIn <span aria-hidden="true">&#8599;</span></a>
+</div>

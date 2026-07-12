@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
+<div class="post about-page">
+  <header class="post-header about-hero">
+    <p class="about-kicker">Researcher &amp; engineer</p>
     <h1 class="post-title" data-i18n="about.title">
       {% if site.title == 'blank' %}
         {{ site.first_name }}
@@ -43,7 +44,7 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
+      <h2 class="section-title">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit" data-i18n="sections.news">news</a>
       </h2>
       {% include news.liquid limit=true %}
@@ -51,7 +52,7 @@ layout: default
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
+      <h2 class="section-title">
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit" data-i18n="sections.latest_posts">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
@@ -59,7 +60,7 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
+      <h2 class="section-title">
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit" data-i18n="sections.selected_publications">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}

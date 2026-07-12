@@ -38,6 +38,191 @@ body.sticky-bottom-footer {
   }
 }
 
+// Personal portfolio treatment
+
+.about-page {
+  --about-accent-soft: rgba(23, 107, 91, 0.1);
+
+  .about-hero {
+    border-bottom: 1px solid var(--global-divider-color);
+    margin-bottom: 2.5rem;
+    padding: 2.75rem 0 2rem;
+  }
+
+  .about-kicker {
+    color: var(--global-theme-color);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+  }
+
+  .post-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 5.25rem;
+    font-weight: 400;
+    line-height: 0.96;
+    margin-bottom: 1rem;
+  }
+
+  .desc {
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+    margin: 0;
+
+    a {
+      color: var(--global-text-color);
+      font-weight: 600;
+    }
+  }
+
+  article {
+    font-size: 1.02rem;
+    line-height: 1.75;
+  }
+
+  .profile {
+    margin-bottom: 1.25rem;
+    margin-right: 2.25rem;
+    width: 34%;
+
+    img {
+      aspect-ratio: 4 / 5;
+      border: 0;
+      border-radius: 2px !important;
+      box-shadow: 12px 12px 0 var(--about-accent-soft) !important;
+      object-fit: cover;
+      object-position: center 30%;
+    }
+  }
+
+  .intro {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.35rem;
+    line-height: 1.55;
+  }
+
+  .about-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem 1.4rem;
+    margin: 1.75rem 0 3.5rem;
+
+    a {
+      border-bottom: 1px solid var(--global-theme-color);
+      color: var(--global-text-color);
+      font-size: 0.88rem;
+      font-weight: 650;
+      padding-bottom: 0.15rem;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .section-title {
+    align-items: baseline;
+    border-top: 1px solid var(--global-divider-color);
+    display: flex;
+    font-size: 0.78rem;
+    font-weight: 750;
+    letter-spacing: 0;
+    margin-top: 3.5rem;
+    padding-top: 1rem;
+    text-transform: uppercase;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .news {
+    table th {
+      color: var(--global-text-color-light);
+      font-size: 0.76rem;
+      font-weight: 500;
+      padding-top: 0.65rem;
+    }
+
+    table td {
+      border-bottom: 1px solid var(--global-divider-color);
+      padding: 0.65rem 0;
+    }
+  }
+
+  .publications {
+    margin-top: 1.25rem;
+
+    ol.bibliography li {
+      border-bottom: 1px solid var(--global-divider-color);
+      margin-bottom: 0;
+      padding: 1.4rem 0;
+
+      .preview {
+        border-radius: 2px !important;
+        box-shadow: none !important;
+      }
+
+      .title {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 1.16rem;
+        line-height: 1.35;
+      }
+
+      .author,
+      .periodical {
+        font-size: 0.84rem;
+        line-height: 1.5;
+      }
+
+      .links a.btn {
+        border-color: var(--global-divider-color);
+        border-radius: 2px;
+        font-size: 0.7rem;
+        letter-spacing: 0;
+        margin-top: 0.55rem;
+        padding: 0.24rem 0.65rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  > article > .social {
+    border-top: 1px solid var(--global-divider-color);
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+  }
+}
+
+html[data-theme="dark"] .about-page {
+  --about-accent-soft: rgba(117, 210, 190, 0.12);
+}
+
+@media (max-width: 575px) {
+  .about-page {
+    .about-hero {
+      padding-top: 1.75rem;
+    }
+
+    .post-title {
+      font-size: 3.25rem;
+    }
+
+    .profile {
+      float: none !important;
+      margin: 0 0 2.25rem;
+      width: min(78vw, 320px);
+    }
+
+    .intro {
+      font-size: 1.2rem;
+    }
+  }
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************

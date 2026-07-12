@@ -19,7 +19,7 @@ What if you could ask an AI <strong>"where is the boy in the red shirt looking?"
 
 <div style="background: var(--global-bg-color); border: 1px solid var(--global-divider-color); border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 2rem;">
   <p style="margin: 0 0 0.5rem 0;">
-    📄 <strong>Paper:</strong> Accepted to <strong>CVPR 2026</strong>
+    📄 <strong>Paper:</strong> <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Cao_Gaze_Target_Estimation_Anywhere_with_Concepts_CVPR_2026_paper.pdf">CVPR 2026</a>
   </p>
   <p style="margin: 0;">
     💻 <strong>Code:</strong> <a href="https://github.com/IrohXu/GazeAnywhere">github.com/IrohXu/GazeAnywhere</a>
