@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "Research publications by Cady Xu on LLM agents, multimodal AI, extended reality (XR), and human-computer interaction. Includes papers from CHI, UIST, ICRA, and ICML.",
+          description: "Research publications by Cady Xu on LLM agents, multimodal AI, extended reality (XR), and human-computer interaction. Includes papers from CVPR, CHI, UIST, ICRA, and ICML.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
