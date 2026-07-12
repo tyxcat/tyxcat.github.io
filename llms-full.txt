@@ -4,11 +4,11 @@ permalink: /llms-full.txt
 ---
 # Cady Tianyu Xu - Complete Profile
 
-> This is the extended AI-readable profile of Cady Tianyu Xu, a researcher at Google DeepMind specializing in multimodal LLM agents, extended reality (XR), and human-computer interaction.
+> This is the extended AI-readable profile of Cady Tianyu Xu, a researcher at Google DeepMind specializing in recursive self-improvement for AI agents.
 
 ## About Cady Xu
 
-Cady Tianyu Xu is a researcher at Google DeepMind. Her work focuses on multimodal LLM agents that move beyond open-ended generation toward closed-loop execution, bridging the gap between high-level reasoning and autonomous task completion in real-world environments.
+Cady Tianyu Xu is a researcher at Google DeepMind. Her current work focuses on recursive self-improvement for AI agents.
 
 Previously, she was a machine learning engineer on the Google XR team, where she developed perception models and multimodal LLMs for immersive, context-aware interaction. Her recent work spans multimodal human-centered systems and interactive AI, with publications at top-tier venues including UIST, CHI, ICRA, and ICML.
 
@@ -16,6 +16,7 @@ Prior to Google, she was a Software Engineer at Apple. She holds a Bachelor's de
 
 ## Research Interests
 
+- Recursive Self-Improvement for AI Agents
 - Large Language Model (LLM) Agents and Autonomous Systems
 - Multimodal AI and Machine Learning
 - Extended Reality (XR) and Spatial Computing
@@ -91,7 +92,7 @@ Prior to Google, she was a Software Engineer at Apple. She holds a Bachelor's de
 ## Professional Experience
 
 - **Google DeepMind** - Researcher (Current)
-  - Focus: Multimodal LLM agents, closed-loop execution, autonomous task completion
+  - Focus: Recursive self-improvement for AI agents
 - **Google XR** - Machine Learning Engineer
   - Focus: Perception models, multimodal LLMs for immersive interaction
 - **Apple** - Software Engineer

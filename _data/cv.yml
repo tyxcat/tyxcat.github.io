@@ -22,7 +22,7 @@
       institution: Google DeepMind
       year: 2025 - Present
       description:
-        - Multimodal LLM agents for closed-loop execution and autonomous task completion.
+        - Recursive self-improvement for AI agents.
     - title: Machine Learning Engineer
       institution: Google XR
       year: 2022 - 2025
@@ -35,10 +35,10 @@
 - title: Research Interests
   type: nested_list
   contents:
-    - title: Multimodal LLM Agents
+    - title: Recursive Self-Improvement
       items:
-        - Closed-loop execution and autonomous task completion in real-world environments.
-        - Bridging high-level reasoning with grounded action.
+        - Self-improving AI agents and autonomous systems.
+        - Learning from experience to improve reasoning and action.
     - title: Human-Computer Interaction
       items:
         - Multimodal human-centered systems and interactive AI.

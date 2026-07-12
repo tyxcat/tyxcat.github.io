@@ -4,14 +4,15 @@ permalink: /llms.txt
 ---
 # Cady Tianyu Xu - Personal Website
 
-> This is the personal academic portfolio of Cady Tianyu Xu, a researcher at Google DeepMind working on LLM agents and multimodal AI.
+> This is the personal academic portfolio of Cady Tianyu Xu, a researcher at Google DeepMind working on recursive self-improvement for AI agents.
 
 ## About Cady Xu
 
-Cady Tianyu Xu is a researcher at Google DeepMind. Her work focuses on multimodal LLM agents that move beyond open-ended generation toward closed-loop execution, bridging the gap between high-level reasoning and autonomous task completion in real-world environments. Previously, she was a machine learning engineer on the Google XR team, developing perception models and multimodal LLMs for immersive, context-aware interaction. Her recent work spans multimodal human-centered systems and interactive AI, with publications at UIST and CHI. She holds a Bachelor's degree in Computer Science and Political Science from UC Berkeley.
+Cady Tianyu Xu is a researcher at Google DeepMind. Her current work focuses on recursive self-improvement for AI agents. Previously, she was a machine learning engineer on the Google XR team, developing perception models and multimodal LLMs for immersive, context-aware interaction. Her recent work spans multimodal human-centered systems and interactive AI, with publications at CVPR, UIST, and CHI. She holds bachelor's degrees in Computer Science and Political Science from UC Berkeley.
 
 ## Research Interests
 
+- Recursive Self-Improvement for AI Agents
 - Large Language Model (LLM) Agents
 - Multimodal AI and Machine Learning
 - Extended Reality (XR) and Spatial Computing

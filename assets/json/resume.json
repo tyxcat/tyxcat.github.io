@@ -5,7 +5,7 @@
     "image": "",
     "email": "cadyxu@google.com",
     "url": "https://cadyxu.com",
-    "summary": "Researcher at Google DeepMind focusing on multimodal LLM agents. Previously ML Engineer at Google XR and Software Engineer at Apple. UC Berkeley CS graduate.",
+    "summary": "Researcher at Google DeepMind focusing on recursive self-improvement for AI agents. Previously ML Engineer at Google XR and Software Engineer at Apple. UC Berkeley CS graduate.",
     "location": {
       "city": "",
       "countryCode": "US",
@@ -25,7 +25,7 @@
       "position": "Researcher",
       "url": "https://deepmind.google/",
       "startDate": "2025",
-      "summary": "Multimodal LLM agents for closed-loop execution and autonomous task completion in real-world environments."
+      "summary": "Recursive self-improvement for AI agents."
     },
     {
       "name": "Google XR",
