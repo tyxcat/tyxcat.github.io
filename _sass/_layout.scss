@@ -41,7 +41,7 @@ body.sticky-bottom-footer {
 // Personal portfolio treatment
 
 .about-page {
-  --about-accent-soft: rgba(23, 107, 91, 0.1);
+  --about-accent-soft: rgba(181, 9, 172, 0.1);
 
   .about-hero {
     border-bottom: 1px solid var(--global-divider-color);
@@ -201,7 +201,7 @@ body.sticky-bottom-footer {
 }
 
 html[data-theme="dark"] .about-page {
-  --about-accent-soft: rgba(117, 210, 190, 0.12);
+  --about-accent-soft: rgba(38, 152, 186, 0.12);
 }
 
 @media (max-width: 575px) {
