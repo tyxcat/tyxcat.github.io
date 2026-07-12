@@ -22,7 +22,7 @@
       institution: Google DeepMind
       year: 2025 - Present
       description:
-        - Recursive self-improvement for AI agents.
+        - Recursive self-improvement for better language models across pretraining, mid-training, post-training, model serving, and agent harnesses.
     - title: Machine Learning Engineer
       institution: Google XR
       year: 2022 - 2025
@@ -37,8 +37,8 @@
   contents:
     - title: Recursive Self-Improvement
       items:
-        - Self-improving AI agents and autonomous systems.
-        - Learning from experience to improve reasoning and action.
+        - Self-improving methods across LLM pretraining, mid-training, and post-training.
+        - Model serving and agent harnesses that enable models to learn from experience.
     - title: Human-Computer Interaction
       items:
         - Multimodal human-centered systems and interactive AI.

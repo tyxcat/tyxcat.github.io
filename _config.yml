@@ -9,14 +9,14 @@ last_name: Xu
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Cady Tianyu Xu is a researcher at Google DeepMind working on recursive self-improvement for AI agents.
+  Cady Tianyu Xu is a researcher at Google DeepMind working on recursive self-improvement for better language models.
   Previously at Google XR (Perception Models, Multimodal LLMs) and Apple. UC Berkeley CS graduate.
-  Research interests include self-improving agents, large language models, multimodal AI, and extended reality.
+  Her work spans pretraining, mid-training, post-training, model serving, and agent harnesses.
 # footer_text: >
 # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Cady Xu, Tianyu Xu, Google DeepMind, recursive self-improvement, self-improving AI, AI agents, LLM agents, multimodal AI, machine learning engineer, autonomous agents, large language models, XR, perception models, UC Berkeley, software engineer, AI researcher
+keywords: Cady Xu, Tianyu Xu, Google DeepMind, recursive self-improvement, self-improving LLMs, LLM pretraining, mid-training, post-training, model serving, agent harnesses, LLM systems, multimodal AI, machine learning engineer, large language models, XR, perception models, UC Berkeley, software engineer, AI researcher
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🐑 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

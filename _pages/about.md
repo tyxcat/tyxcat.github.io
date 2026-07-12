@@ -2,9 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://deepmind.google.com/'>Google DeepMind</a> · Recursive Self-Improvement · AI Agents
-description: Cady Tianyu Xu is a researcher at Google DeepMind working on recursive self-improvement for AI agents. Previously at Google XR and Apple CoreOS. UC Berkeley CS graduate.
-keywords: Cady Xu, Tianyu Xu, Google DeepMind, recursive self-improvement, AI agents, LLM agents, multimodal AI, XR, researcher, machine learning
+subtitle: <a href='https://deepmind.google.com/'>Google DeepMind</a> · Recursive Self-Improvement · LLM Systems
+description: Cady Tianyu Xu is a researcher at Google DeepMind working on recursive self-improvement for better language models across training, serving, and agent systems. Previously at Google XR and Apple CoreOS. UC Berkeley CS graduate.
+keywords: Cady Xu, Tianyu Xu, Google DeepMind, recursive self-improvement, LLM pretraining, mid-training, post-training, model serving, agent harnesses, LLM systems, multimodal AI, XR, researcher, machine learning
 
 profile:
   align: left
@@ -29,7 +29,7 @@ latest_posts:
 ---
 
 <p class="intro">
-I'm Cady, a researcher at Google DeepMind. My current work focuses on recursive self-improvement for AI agents.
+I'm Cady, a researcher at Google DeepMind. My current work focuses on recursive self-improvement for better language models, spanning pretraining, mid-training, post-training, model serving, and agent harnesses.
 </p>
 
 Previously, I was a machine learning engineer on the Google XR team, where I developed perception models and multimodal LLMs for immersive, context-aware interaction. My recent work also spans multimodal human-centered systems and interactive AI, with publications at CVPR, UIST, and CHI.
